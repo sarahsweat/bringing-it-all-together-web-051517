@@ -6,7 +6,7 @@ RSpec.configure do |config|
   config.tty = true
 
   # Use the specified formatter
-  config.formatter = :progress # :progress, :html, :textmate
+  # config.formatter = :progress # :progress, :html, :textmate
 
   #you can do global before/after here like this:
   config.before(:each) do
